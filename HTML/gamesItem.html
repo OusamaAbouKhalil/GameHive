@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameHive Store</title>
+<link rel="stylesheet" href="/CSS/main.css">
+<link rel="stylesheet" href="/CSS/Shop.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+
+</head>
+
+<body class="store">
+    
+    <header class="sticky">
+        <a href="#" class="logo">Game<span style="color: crimson;">Hive</span></a>
+        <ul class="nav">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Games</a></li>
+        </ul>
+        <div class="toggleMenu" onclick="toggleMenu()"></div>
+    </header>
+    <div class="Our-Games " id="Our-Games" style="margin-top: 150px;">
+        <h2>Our Products</h2>
+        <ul>
+            <li class="games-list hover-underline-animation" data-filter="all">All</li>
+            <li class="games-list hover-underline-animation" data-filter="pc">In games Purchase</li>
+            <li class="games-list hover-underline-animation" data-filter="mobile">Brand Items</li>
+        </ul>
+        <div class="game-Cards">
+            <div class="game-card" data-item="pc">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/Der Eisendrache.jpg" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>Der Eisendrache<br></h3>
+                    <div class="Pricing" style="margin-top: 36px;">
+                        <p>Pricing<br><span>$11.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="after-the-fall-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="game-card" data-item="mobile">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/Controller.avif" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>PS4 Controller</h3>
+                    <div class="Pricing">
+                        <p>Pricing<br><span>$64.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="Crystal-Quest-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card" data-item="pc">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/DLC.jpg" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>After The Fall<br></h3>
+                    <div class="Pricing" style="margin-top: 36px;">
+                        <p>Pricing<br><span style="text-decoration-line: line-through;">$19.99</span><span> $14.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="after-the-fall-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-card" data-item="mobile">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/PS5.avif" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>Customized PS5</h3>
+                    <div class="Pricing">
+                        <p>Pricing<br><span>654.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="Crystal-Quest-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="game-card" data-item="pc">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/thegiant.jpg" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>After The Fall<br></h3>
+                    <div class="Pricing" style="margin-top: 36px;">
+                        <p>Pricing<br><span style="text-decoration-line: line-through;">$14.99</span> <span> $4.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="after-the-fall-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="game-card" data-item="mobile">
+                <div class="game-card-image">
+                    <img src="/Assets/Imgs/headset.jpg" alt="After The Fall">
+                </div>
+                <div class="game-card-info">
+                    <h3>Head Set </h3>
+                    <div class="Pricing">
+                        <p>Pricing<br> <span style="text-decoration-line: line-through;">$140.99</span><span> $99.99</span></p>
+                    </div>
+                    <div class="btns">
+                        <a class="read-more-btn" id="Crystal-Quest-read-more">Read More</a>
+                        <a href="" style="margin-left: 40px;">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    
+
+        <!-- footer -->
+        
+        <footer>
+            <div class="info">
+                <a href="" class="logo">Game<span style="color: crimson;">Hive</span></a>
+                <p><i>&copy;</i> <span id="current-year"></span> All Rights Reserved</i></p>
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i> </li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-tiktok"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- JS Scripts -->
+        <script src="JS/header.js"></script>
+        <!-- popup Script -->
+        <script src="/JS/popup.js"></script>
+        <!-- card filter Script-->
+        <script src="/JS/category.js"></script>
+        <!-- current year for copyright -->
+        <script src="/JS/current-year.js"></script>
+        <!-- menu Script-->
+        <script src="/JS/menu.js"></script>
+        <!-- Scrolling Animation Script-->
+        <script src="/JS/ScrollingAnimation.js"></script>
+        <!-- BootStrap -->
+        <script src="/BootStrap/bootStrapJS.Js"></script>
+
+</body>
+
+
+</html>

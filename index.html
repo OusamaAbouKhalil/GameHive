@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHive</title>
+    <link rel="stylesheet" href="/CSS/main.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="sticky">
+        <a href="#" class="logo">Game<span style="color: crimson;">Hive</span></a>
+        <ul class="nav" >
+            <li><a  href="#Our-Games">Games</a></li>
+            <li><a href="/HTML/gamesItem.html">Game Items</a></li>
+            <li><a href="/HTML/contact.html">Contact</a></li>
+            <li><a href="/HTML/team.html">Team</a></li>
+        </ul>
+        <div class="toggleMenu" onclick="toggleMenu()"></div>
+    </header>
+
+    <!-- banner -->
+    <div class="bannerOne">
+        <div class="bg">
+            <div class="content">
+                <h2>GameHive Studios</h2>
+                <p>As an independent game development studio, we operate independently to conceptualize, design, and
+                    produce
+                    innovative
+                    games. Our team of experienced professionals works collaboratively to create captivating gaming
+                    experiences that
+                    are
+                    tailored to meet the expectations of our clients and gamers alike.
+                </p>
+                <a href="#about-us" class="button">Get Started</a>
+            </div>
+            <img src="/Assets/Imgs/sample1.png">
+        </div>
+    </div>
+
+    <!-- About Us -->
+
+    <div class="about-us animate" id="about-us">
+        <div class="content-abt">
+            <h2>About Us</h2>
+            <p>
+            We are a passionate gaming development studio dedicated to creating innovative and engaging games that push the
+            boundaries of the industry. Our team consists of talented designers, programmers, artists, and storytellers who
+            constantly strive to improve and create better games. We believe that games should be more than just entertainment and
+            should provide a way for people to connect, challenge themselves, and discover new things. Our games are accessible to
+            everyone and offer enough challenge to keep players engaged and entertained. Join us on this exciting journey and let's
+            create amazing games together!</p>
+        </div>
+        <img src="/Assets/Imgs/sample2.png">
+    </div>
+<div class="Our-Games animate" id="Our-Games">
+    <h2>Our Games</h2>
+    <ul>
+        <li class="games-list hover-underline-animation" data-filter="all">All</li>
+        <li class="games-list hover-underline-animation" data-filter="pc">Pc Games</li>
+        <li class="games-list hover-underline-animation" data-filter="mobile">Mobile Games</li>
+    </ul>
+    <div class="game-Cards">
+        <div class="game-card" data-item="pc">
+            <div class="game-card-image">
+                <img src="/Assets/Imgs/Video_Game_Cover_-_The_Last_of_Us.jpg" alt="After The Fall">
+            </div>
+            <div class="game-card-info">
+                <h3>After The Fall<br></h3>
+                <div class="Pricing" style="margin-top: 36px;">
+                    <p>Pricing<br><span>$24.99</span></p>
+                </div>
+                <div class="btns">
+                    <a class="read-more-btn" id="after-the-fall-read-more">Read More</a>
+                    <a href="" style="margin-left: 40px;">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-card" data-item="mobile">
+            <div class="game-card-image">
+                <img src="/Assets/Imgs/knock-knock-fantastic-art.jpg" alt="After The Fall">
+            </div>
+            <div class="game-card-info">
+                <h3>Crystal Quest: The Battle for Avendria</h3>
+                <div class="Pricing">
+                    <p>Pricing<br><span>free</span></p>
+                </div>
+                <div class="btns">
+                    <a class="read-more-btn" id="Crystal-Quest-read-more" >Read More</a>
+                    <a href="" style="margin-left: 40px;">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="popup" id="popup-1">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h2>After The Fall</h2>
+                <p>"After The Fall" is a 3D adventure game set in a post-apocalyptic world overrun by zombies. As the main
+                    character, you must navigate through treacherous waters, fight through hordes of undead, and solve puzzles
+                    to reach a hidden temple on a remote island. Inside the temple lies a portal device that can transport you
+                    to safety, far away from the zombie-infested world. Can you survive long enough to reach the portal and
+                    escape to safety?</p>
+                <div class="Pricing">
+                </div>
+                <div class="btns">
+                    <a href="">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+       <div class="popup" id="popup-2">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <h2>Crystal Quest: The Battle for Avendria</h2>
+                <p>Lorem ipsum dolor sit amet consectet
+                    ur adipisicing elit. Vel asperiores ex earum! Reiciendis itaque adipisci laudantium, ab magni illo quae dolor consequuntur cumque, accusamus asperiores labore veniam, aspernatur doloribus veritatis!</p>
+                <div class="Pricing">
+                </div>
+                <div class="btns">
+                    <a href="">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+
+
+    
+
+        <footer id="footer">
+            <div class="info">
+                <a href="" class="logo">Game<span style="color: crimson;">Hive</span></a>
+                <p><i>&copy;</i> <span id="current-year"></span> All Rights Reserved</i></p>
+                <ul>
+                    <li ><i class="fab fa-facebook-f"></i> </li>
+                    <li ><i class="fab fa-instagram"></i></li>
+                    <li ><i class="fab fa-tiktok"></i></li>
+                    <li ><i class="fab fa-youtube"></i></li>
+                </ul>
+            </div>
+        </footer>
+
+
+
+    <!-- JS Scripts -->
+    <script src="JS/header.js"></script>
+    <!-- popup Script -->
+    <script src="/JS/popup.js"></script>
+    <!-- card filter Script-->
+    <script src="/JS/category.js"></script>
+    <!-- current year for copyright -->
+    <script src="/JS/current-year.js"></script>
+    <!-- menu Script-->
+    <script src="/JS/menu.js"></script>
+    <!-- Scrolling Animation Script-->
+    <script src="/JS/ScrollingAnimation.js"></script>
+    <!-- BootStrap -->
+    <script src="/BootStrap/bootStrapJS.Js"></script>
+
+</body>
+
+</html>
