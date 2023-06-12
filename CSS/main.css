@@ -71,7 +71,7 @@ header ul li a:hover {
     justify-content: center;
     align-items: center ;
     display: flex;
-    background-image: url(/Assets/Imgs/bgimg.jpg);
+    background-image: url(Assets/Imgs/bgimg.jpg);
     background-size: cover;
 }
 .bannerOne .bg{
@@ -118,7 +118,7 @@ header ul li a:hover {
     padding-left: 30px;
 }
 .store{
-        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/Assets/Imgs/wras.jpg);
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Assets/Imgs/wras.jpg);
         background-size: cover;
 }
 
@@ -133,7 +133,7 @@ header ul li a:hover {
     justify-content: space-between;
     align-items: center;
     background-color: #111221;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/Assets/Imgs/warxone.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Assets/Imgs/warxone.jpg);
     background-size: cover;
     /* Blur bg image */
 }
